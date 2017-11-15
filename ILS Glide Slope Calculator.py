@@ -2,7 +2,7 @@ import tkinter as tk
 import math
 
 #create a window
-root = tk.Tk()
+window = tk.Tk()
 
 window.title('Glide Slope or Rate of Climb/Decent')  # window title
 window.geometry('675x150')  # initial window size (width x height)
@@ -100,4 +100,4 @@ ex_label = tk.Label(window, text=' ', bg='grey')
 ex_label.grid(row=7, column=3)
 
 
-root.mainloop()
+window.mainloop()
